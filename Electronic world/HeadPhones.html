@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Electronic Site">
+        <meta name="keywords" content="HTML,CSS,,JavaScript,Bootstrap,Jquery,fontawesome">
+        <meta name="author" content="Edrissa Sumareh">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap  link-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Css For index -->
+        <link rel="stylesheet" href="Phones.css">
+
+        <!-- Jquery link -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap javascript  link-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Font awesome link -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <!-- Toggle Button -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Target" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Toggle Button  End -->
+
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand"><i class="fas fa-hands-helping"></i> Electronic-World</a>
+                </div>
+
+                <!-- Toggle Button Target -->
+                <div class="collapse navbar-collapse" id="Target">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Aboutus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="Phones.html">Phones</a></li>
+                        <li><a href="Laptops.html">Laptops</a></li>
+                        <li><a href="HeadPhones.html">Head Phones</a></li>
+                        <li><a href="shopping-cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+
+                <!-- Toggle Button End -->
+
+            </div>
+        </nav>
+
+
+        <!-- Jumbotron -->
+        <div class="container">
+            <div class="jumbotron">
+                <center><h3><i class="fas fa-headphones"></i> HeadPhones </h3></center>
+            </div>
+
+        </div>
+
+
+        <!-- Phones types-->
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                    <img src="beatsbydre.png">
+
+                    <h5 class="item_name"><strong>Beats by dre black</strong></h5>
+                    <h3>$250</h3>
+
+                    <p><strong> Qty left 3</strong></p>
+                    <input class="item_quantity" type="number" placeholder="Qty" min="0" max="1">
+                    <br>
+                    <br>
+                    <input class="btn btn-success add_to_cart" type="button" value="Add to cart" data-title=".item_name" data-price="250" data-quantity="item_quantity">
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <img src="designer.jpg">
+
+                    <h5 class="item_name"><strong>Designer orange</strong></h5>
+                    <h3>$300</h3>
+
+                    <p><strong> Qty left 4</strong></p>
+                    <input class="item_quantity" type="number" placeholder="0" min="0" max="4">
+                    <br>
+                    <br>
+                    <input class="btn btn-success add_to_cart" type="button" value="Add to cart" data-title=".item_name" data-price="300" data-quantity="item_quantity">
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <img src="designer.jpg">
+
+                    <h5 class="item_name"><strong>Impressive White headphones</strong></h5>
+                    <h3>$100</h3>
+
+                    <p><strong> Qty left 2</strong></p>
+                    <input class="item_quantity" type="number" placeholder=0 min="0" max="2">
+                    <br>
+                    <br>
+                    <input class="btn btn-success add_to_cart" type="button" value="Add to cart" data-title=".item_name" data-price="100" data-quantity="item_quantity">
+                </div>
+
+                <div class="col-md-3 col-sm-3">
+                    <img src="voyager-pro-hd_a.png">
+
+                    <h5 class="item_name"><strong>Bluetooth headPhones</strong></h5>
+                    <h3>$100</h3>
+
+                    <p><strong> Qty left 3</strong></p>
+                    <input class="item_quantity" type="number" placeholder=0 min="0" max="3">
+                    <br>
+                    <br>
+                    <input class="btn btn-success add_to_cart" type="button" value="Add to cart" data-title=".item_name" data-price="100" data-quantity="item_quantity">
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="js/javascript.js"></script>
+    </body>
+</html>

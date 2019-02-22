@@ -1,0 +1,41 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  padding-top: 70px;
+}
+
+
+
+.navbar-inverse {
+    background-color: #000;
+    border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff5f5;
+}
+
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+.jumbotron{
+      background-color: #fdd;
+}
+
+
+.footer {
+  padding-bottom:30px; 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color:#101010;
+  color: white;
+ 
+}
